@@ -30,6 +30,3 @@ def render_header(personal_data):
             links_html += f'<a href="{url}" target="_blank" rel="noopener noreferrer" class="social-link">{icon} {name}</a>'
         links_html += '</div>'
         st.markdown(links_html, unsafe_allow_html=True)
-
-    # Add spacing
-    st.markdown("<br>", unsafe_allow_html=True)

@@ -62,7 +62,6 @@ def main():
     st.markdown(welcome_html, unsafe_allow_html=True)
 
     # Quick navigation cards
-    st.markdown("<br>", unsafe_allow_html=True)
     st.markdown('<h2 class="section-header">Explore</h2>', unsafe_allow_html=True)
 
     col1, col2, col3 = st.columns(3)

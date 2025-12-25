@@ -368,19 +368,43 @@ a.social-link {
 
 /* Buttons */
 .stButton > button {
-    font-family: 'Space Mono', monospace;
-    background: var(--retro-green-pale);
-    border: 2px solid var(--retro-green-main);
-    border-radius: 8px;
-    color: var(--text-dark);
-    padding: 0.5rem 1.5rem;
-    transition: all 0.2s ease;
+    font-family: 'Space Mono', monospace !important;
+    background: var(--retro-green-pale) !important;
+    border: 3px solid var(--retro-green-main) !important;
+    border-radius: 8px !important;
+    color: var(--text-dark) !important;
+    padding: 0.5rem 1.5rem !important;
+    transition: all 0.2s ease !important;
+    font-weight: 700 !important;
+    box-shadow: 3px 3px 0px var(--retro-green-light) !important;
 }
 
 .stButton > button:hover {
-    background: var(--retro-green-light);
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0px var(--retro-green-main);
+    background: var(--retro-green-light) !important;
+    transform: translate(-2px, -2px) !important;
+    box-shadow: 5px 5px 0px var(--retro-green-main) !important;
+    color: var(--text-dark) !important;
+}
+
+/* Link buttons */
+a[class*="linkButton"] {
+    font-family: 'Space Mono', monospace !important;
+    background: var(--retro-green-pale) !important;
+    border: 3px solid var(--retro-green-main) !important;
+    border-radius: 8px !important;
+    color: var(--text-dark) !important;
+    font-weight: 700 !important;
+    padding: 0.5rem 1.5rem !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    box-shadow: 3px 3px 0px var(--retro-green-light) !important;
+}
+
+a[class*="linkButton"]:hover {
+    background: var(--retro-green-light) !important;
+    transform: translate(-2px, -2px) !important;
+    box-shadow: 5px 5px 0px var(--retro-green-main) !important;
+    color: var(--text-dark) !important;
 }
 
 /* Divider */
