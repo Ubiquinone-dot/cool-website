@@ -27,11 +27,7 @@ def render_header(personal_data):
             icon = link.get("icon", "🔗")
             name = link.get("name", "Link")
             url = link.get("url", "#")
-            links_html += f'''
-                <a href="{url}" target="_blank" class="social-link">
-                    {icon} {name}
-                </a>
-            '''
+            links_html += f'<a href="{url}" target="_blank" rel="noopener noreferrer" class="social-link">{icon} {name}</a>'
         links_html += '</div>'
         st.markdown(links_html, unsafe_allow_html=True)
 

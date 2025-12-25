@@ -22,6 +22,51 @@
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: var(--cream-bg) !important;
+    border-right: 4px solid var(--retro-green-main) !important;
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    background-color: var(--cream-bg) !important;
+}
+
+/* Sidebar Navigation Links */
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
+    font-family: 'VT323', monospace !important;
+    font-size: 1.8rem !important;
+    color: var(--retro-green-accent) !important;
+    font-weight: bold !important;
+}
+
+[data-testid="stSidebar"] a {
+    font-family: 'VT323', monospace !important;
+    font-size: 2rem !important;
+    color: var(--retro-green-accent) !important;
+    text-decoration: none !important;
+    background: white !important;
+    border: 3px solid var(--retro-green-main) !important;
+    border-radius: 8px !important;
+    padding: 0.8rem 1.2rem !important;
+    margin: 0.5rem 0 !important;
+    display: block !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 3px 3px 0px var(--retro-green-light) !important;
+}
+
+[data-testid="stSidebar"] a:hover {
+    background: var(--retro-green-pale) !important;
+    transform: translate(-2px, -2px) !important;
+    box-shadow: 5px 5px 0px var(--retro-green-main) !important;
+}
+
+/* Active page in sidebar */
+[data-testid="stSidebar"] a[aria-current="page"] {
+    background: var(--retro-green-light) !important;
+    font-weight: bold !important;
+}
+
 /* Typography */
 h1, h2, h3 {
     font-family: 'VT323', monospace;
@@ -110,29 +155,47 @@ p, li, span, div {
 
 /* Social Links */
 .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-    flex-wrap: wrap;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 1.5rem !important;
+    margin-top: 1.5rem !important;
+    flex-wrap: wrap !important;
 }
 
 .social-link {
-    font-family: 'Space Mono', monospace;
-    background: var(--retro-green-pale);
-    border: 2px solid var(--retro-green-main);
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: var(--text-dark);
-    transition: all 0.2s ease;
-    display: inline-block;
+    font-family: 'Space Mono', monospace !important;
+    background: var(--retro-green-pale) !important;
+    border: 3px solid var(--retro-green-main) !important;
+    border-radius: 8px !important;
+    padding: 0.6rem 1.2rem !important;
+    text-decoration: none !important;
+    color: var(--text-dark) !important;
+    transition: all 0.2s ease !important;
+    display: inline-block !important;
+    font-size: 0.95rem !important;
+    font-weight: normal !important;
+    box-shadow: 3px 3px 0px var(--retro-green-light) !important;
 }
 
 .social-link:hover {
-    background: var(--retro-green-light);
-    transform: translate(-2px, -2px);
-    box-shadow: 4px 4px 0px var(--retro-green-main);
+    background: var(--retro-green-light) !important;
+    transform: translate(-2px, -2px) !important;
+    box-shadow: 5px 5px 0px var(--retro-green-main) !important;
+    color: var(--text-dark) !important;
+    text-decoration: none !important;
+}
+
+/* Ensure links in markdown also get styled */
+a.social-link {
+    font-family: 'Space Mono', monospace !important;
+    background: var(--retro-green-pale) !important;
+    border: 3px solid var(--retro-green-main) !important;
+    border-radius: 8px !important;
+    padding: 0.6rem 1.2rem !important;
+    text-decoration: none !important;
+    color: var(--text-dark) !important;
+    display: inline-block !important;
+    box-shadow: 3px 3px 0px var(--retro-green-light) !important;
 }
 
 /* Section Headers */
