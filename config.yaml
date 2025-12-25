@@ -1,0 +1,113 @@
+# Personal Information
+personal:
+  name: "Your Name"
+  title: "Software Engineer"
+  tagline: "Building elegant solutions with code"
+  email: "email@example.com"
+  phone: "+1 (555) 123-4567"
+  location: "San Francisco, CA"
+  links:
+    - name: "GitHub"
+      url: "https://github.com/username"
+      icon: "💻"
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/username"
+      icon: "💼"
+    - name: "Portfolio"
+      url: "https://yourportfolio.com"
+      icon: "🌐"
+
+# About Section
+about:
+  summary: |
+    Passionate software engineer with 5+ years of experience building scalable web applications
+    and distributed systems. I love solving complex problems and creating elegant, user-friendly solutions.
+
+    Currently focused on full-stack development, cloud architecture, and developer tools that
+    enhance productivity and code quality.
+
+  skills:
+    - category: "Languages"
+      items: ["Python", "JavaScript", "TypeScript", "Go", "SQL"]
+    - category: "Frameworks & Libraries"
+      items: ["React", "Django", "FastAPI", "Streamlit", "Node.js"]
+    - category: "Tools & Technologies"
+      items: ["Docker", "Git", "AWS", "PostgreSQL", "Redis"]
+    - category: "Soft Skills"
+      items: ["Problem Solving", "Team Leadership", "Code Review", "Technical Writing"]
+
+# Work Experience
+experience:
+  - company: "Tech Company Inc."
+    position: "Senior Software Engineer"
+    location: "San Francisco, CA"
+    start_date: "2021-06"
+    end_date: "Present"
+    description: |
+      Lead engineer for core platform features serving millions of users.
+    achievements:
+      - "Architected and deployed microservices handling 1M+ requests/day with 99.9% uptime"
+      - "Reduced API latency by 40% through optimization and caching strategies"
+      - "Mentored 5 junior engineers and conducted weekly code review sessions"
+      - "Led migration from monolith to microservices architecture"
+    technologies: ["Python", "Docker", "AWS", "PostgreSQL", "Redis"]
+
+  - company: "Startup Co."
+    position: "Software Engineer"
+    location: "Remote"
+    start_date: "2019-03"
+    end_date: "2021-05"
+    description: |
+      Full-stack development for B2B SaaS platform focused on analytics and reporting.
+    achievements:
+      - "Built customer dashboard from scratch using React and FastAPI"
+      - "Implemented automated testing pipeline achieving 95% code coverage"
+      - "Developed RESTful API serving 10,000+ daily requests"
+      - "Collaborated with design team to improve UX, increasing user retention by 25%"
+    technologies: ["JavaScript", "Python", "React", "FastAPI", "PostgreSQL"]
+
+  - company: "Digital Agency"
+    position: "Junior Developer"
+    location: "New York, NY"
+    start_date: "2018-01"
+    end_date: "2019-02"
+    description: |
+      Web development for client projects ranging from e-commerce to content management systems.
+    achievements:
+      - "Developed 10+ client websites using modern web technologies"
+      - "Improved page load times by 50% through optimization techniques"
+      - "Collaborated with cross-functional teams on tight deadlines"
+    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP"]
+
+# Education
+education:
+  - institution: "University Name"
+    degree: "Bachelor of Science"
+    field: "Computer Science"
+    location: "City, State"
+    start_date: "2014-09"
+    end_date: "2018-05"
+    gpa: "3.8/4.0"
+    honors:
+      - "Dean's List (All Semesters)"
+      - "Outstanding CS Student Award 2018"
+      - "Member of ACM Student Chapter"
+    relevant_coursework:
+      - "Algorithms & Data Structures"
+      - "Machine Learning"
+      - "Distributed Systems"
+      - "Database Systems"
+      - "Software Engineering"
+
+  - institution: "Online Learning Platform"
+    degree: "Professional Certificate"
+    field: "Machine Learning Specialization"
+    location: "Online"
+    start_date: "2020-01"
+    end_date: "2020-06"
+    gpa: null
+    honors: null
+    achievements:
+      - "Completed 5-course specialization covering supervised and unsupervised learning"
+      - "Final project: Predictive model with 92% accuracy on real-world dataset"
+      - "Learned TensorFlow, scikit-learn, and deep learning fundamentals"
